@@ -41,3 +41,14 @@ dias_de_vacaciones_es_float=isinstance(dias_de_vacaciones,float)
 print("variable dias de vacaciones es:",type_dias_de_vacaciones)
 print("variable es int?:",dias_de_vacaciones_es_int)
 print("variable es float?:",dias_de_vacaciones_es_float)
+
+#EJERCICIO05
+ocupa_tercio_superior="Jimmy"
+type_ocupa_tercio_superior=type(ocupa_tercio_superior)
+
+ocupa_tercio_superior_es_str=isinstance(ocupa_tercio_superior,str)
+ocupa_tercio_superior_es_float=isinstance(ocupa_tercio_superior,float)
+
+print("variable ocupa tercio superior:",type_ocupa_tercio_superior)
+print("variable es str?:",ocupa_tercio_superior_es_str)
+print("variable es float?:",ocupa_tercio_superior_es_float)
