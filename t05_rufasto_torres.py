@@ -63,3 +63,14 @@ monto_de_pasar_pedido_es_int=isinstance(monto_de_pasar_pedido,int)
 print("variable monto de pasar pedido es:",type_monto_de_pasar_pedido)
 print("variable es float?:",monto_de_pasar_pedido_es_float)
 print("variable es int?:",monto_de_pasar_pedido_es_int)
+
+#EJERCICIO07
+monto_de_liquidacion=599.50
+type_monto_de_liquidacion=type(monto_de_liquidacion)
+
+monto_de_liquidacion_es_float=isinstance(monto_de_liquidacion,float)
+monto_de_liquidacion_es_bool=isinstance(monto_de_liquidacion,bool)
+
+print("variable monto de liquidacion es:",type_monto_de_liquidacion)
+print("variable es float?:",monto_de_liquidacion_es_float)
+print("variable es bool?:",monto_de_liquidacion_es_bool)
