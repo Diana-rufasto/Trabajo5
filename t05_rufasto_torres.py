@@ -52,3 +52,14 @@ ocupa_tercio_superior_es_float=isinstance(ocupa_tercio_superior,float)
 print("variable ocupa tercio superior:",type_ocupa_tercio_superior)
 print("variable es str?:",ocupa_tercio_superior_es_str)
 print("variable es float?:",ocupa_tercio_superior_es_float)
+
+#EJERCICIO06
+monto_de_pasar_pedido=251.45
+type_monto_de_pasar_pedido=type(monto_de_pasar_pedido)
+
+monto_de_pasar_pedido_es_float=isinstance(monto_de_pasar_pedido,float)
+monto_de_pasar_pedido_es_int=isinstance(monto_de_pasar_pedido,int)
+
+print("variable monto de pasar pedido es:",type_monto_de_pasar_pedido)
+print("variable es float?:",monto_de_pasar_pedido_es_float)
+print("variable es int?:",monto_de_pasar_pedido_es_int)
