@@ -400,3 +400,14 @@ horas_trabajadas_semanal_es_float=isinstance(horas_trabajadas_semanal,float)
 print("variable horas trabajadas semanal es:",type_horas_trabajadas_semanal)
 print("variable es int?:",horas_trabajadas_semanal_es_int)
 print("variable es float?:",horas_trabajadas_semanal_es_float)
+
+#EJERCICIO37
+salario_de_un_obrero=1.800
+type_salario_de_un_obrero=type(salario_de_un_obrero)
+
+salario_de_un_obrero_es_float=isinstance(salario_de_un_obrero,float)
+salario_de_un_obrero_es_bool=isinstance(salario_de_un_obrero,bool)
+
+print("variable salio de un obrero es:",type_salario_de_un_obrero)
+print("variable es float?:",salario_de_un_obrero_es_float)
+print("variable es bool?:",salario_de_un_obrero_es_bool)
