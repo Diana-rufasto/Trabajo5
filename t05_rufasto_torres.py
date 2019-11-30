@@ -169,3 +169,14 @@ print("variable universidad es:",type_universidad)
 print("variable es str?:",universidad_es_str)
 print("variable es float?:",universidad_es_float)
 
+#EJERCICIO16
+ingreso_mensual=1500.00
+type_ingreso_mensual=type(ingreso_mensual)
+
+ingreso_mensual_es_float=isinstance(ingreso_mensual,float)
+ingreso_mensual_es_bool=isinstance(ingreso_mensual,bool)
+
+print("variable ingreso mensual es:",type_ingreso_mensual)
+print("variable es float?:",ingreso_mensual_es_float)
+print("variable es bool?:",ingreso_mensual_es_bool)
+
