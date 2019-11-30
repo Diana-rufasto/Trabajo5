@@ -411,3 +411,14 @@ salario_de_un_obrero_es_bool=isinstance(salario_de_un_obrero,bool)
 print("variable salio de un obrero es:",type_salario_de_un_obrero)
 print("variable es float?:",salario_de_un_obrero_es_float)
 print("variable es bool?:",salario_de_un_obrero_es_bool)
+
+#EJERCICIO38
+ingreso_del_padre=1.500
+type_ingreso_del_padre=type(ingreso_del_padre)
+
+ingreso_del_padre_es_float=isinstance(ingreso_del_padre,float)
+ingreso_del_padre_es_int=isinstance(ingreso_del_padre,int)
+
+print("variable ingreso del padre es:",type_ingreso_del_padre)
+print("variable es float?:",ingreso_del_padre_es_float)
+print("variable es int?:",ingreso_del_padre_es_int)
