@@ -269,4 +269,16 @@ print("variable clinica odontologica es:",type_clinica_odontologica)
 print("variable es str?:",clinica_odontologica_es_str)
 print("variable es float?:",clinica_odontologica_es_float)
 
+#EJERCICIO25
+asignacion_familiar=26.00
+type_asignacion_familiar=type(asignacion_familiar)
+
+asignacion_familiar_es_float=isinstance(asignacion_familiar,float)
+asignacion_familiar_es_bool=isinstance(asignacion_familiar,bool)
+
+print("variable asignacion familiar es:",type_asignacion_familiar)
+print("variable es float?:",asignacion_familiar_es_float)
+print("variable es bool?:",asignacion_familiar_es_bool)
+
+
 
