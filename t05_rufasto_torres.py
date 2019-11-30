@@ -510,3 +510,14 @@ producto_para_construccion_es_int=isinstance(producto_para_construccion,int)
 print("variable producto para contruccion es:",type_producto_para_construccion)
 print("variable es str?:",producto_para_construccion_es_str)
 print("variable es int?:",producto_para_construccion_es_int)
+
+#EJERCICIO47
+nro_de_dientes_curados=3
+type_nro_de_dientes_curados=type(nro_de_dientes_curados)
+
+nro_de_dientes_curados_es_int=isinstance(nro_de_dientes_curados,int)
+nro_de_dientes_curados_es_float=isinstance(nro_de_dientes_curados,float)
+
+print("variable nro de dientes curados es:",type_nro_de_dientes_curados)
+print("variable es int?:",nro_de_dientes_curados_es_int)
+print("variable es float?:",nro_de_dientes_curados_es_float)
