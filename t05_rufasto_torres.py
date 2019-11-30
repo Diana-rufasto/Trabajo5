@@ -258,4 +258,15 @@ print("variable costo unitario celular es:",type_costo_unitario_celular)
 print("variable es float?:",costo_unitario_celular_es_float)
 print("variable es str?:",costo_unitario_celular_es_str)
 
+#EJERCICIO24
+clinica_odontologica="Muelitas"
+type_clinica_odontologica=type(clinica_odontologica)
+
+clinica_odontologica_es_str=isinstance(clinica_odontologica,str)
+clinica_odontologica_es_float=isinstance(clinica_odontologica,float)
+
+print("variable clinica odontologica es:",type_clinica_odontologica)
+print("variable es str?:",clinica_odontologica_es_str)
+print("variable es float?:",clinica_odontologica_es_float)
+
 
