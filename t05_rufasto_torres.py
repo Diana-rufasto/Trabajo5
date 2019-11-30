@@ -247,3 +247,15 @@ print("variable cantidad de celulares es:",type_cantidad_de_celulares)
 print("variable es int?:",cantidad_de_celulares_es_int)
 print("variable es bool?:",cantidad_de_celulares_es_bool)
 
+#EJERCICIO23
+costo_unitario_celular=1.800
+type_costo_unitario_celular=type(costo_unitario_celular)
+
+costo_unitario_celular_es_float=isinstance(costo_unitario_celular,float)
+costo_unitario_celular_es_str=isinstance(costo_unitario_celular,str)
+
+print("variable costo unitario celular es:",type_costo_unitario_celular)
+print("variable es float?:",costo_unitario_celular_es_float)
+print("variable es str?:",costo_unitario_celular_es_str)
+
+
