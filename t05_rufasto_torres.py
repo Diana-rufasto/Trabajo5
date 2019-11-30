@@ -378,3 +378,15 @@ nota_del_segundo_curso_es_bool=isinstance(nota_del_segundo_curso,bool)
 print("variable nota del tercer curso es:",type_nota_del_segundo_curso)
 print("variable es int?:",nota_del_segundo_curso_es_int)
 print("variable es bool?:",nota_del_segundo_curso_es_bool)
+
+#EJERCICIO35
+horas_trabajadas=8
+type_horas_trabajadas=type(horas_trabajadas)
+
+horas_trabajadas_es_int=isinstance(horas_trabajadas,int)
+horas_trabajadas_es_str=isinstance(horas_trabajadas,str)
+
+print("variable horas trabajadas es:",type_horas_trabajadas)
+print("variable es int?:",horas_trabajadas_es_int)
+print("variable es str?:",horas_trabajadas_es_str)
+
