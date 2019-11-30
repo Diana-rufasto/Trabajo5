@@ -87,3 +87,15 @@ comprador_compulsivo_es_float=isinstance(comprador_compulsivo,float)
 print("variable comprador compulsivo es:",type_comprador_compulsivo)
 print("variable es str?:",comprador_compulsivo_es_str)
 print("variable es float?:",comprador_compulsivo_es_float)
+
+
+#EJERCICIO09
+total_a_pagar=345.60
+type_total_a_pagar=type(total_a_pagar)
+
+total_a_pagar_es_float=isinstance(total_a_pagar,float)
+total_a_pagar_es_bool=isinstance(total_a_pagar,bool)
+
+print("variable total a pagar es:",type_total_a_pagar)
+print("variable es float?:",total_a_pagar_es_float)
+print("variable es bool?:",total_a_pagar_es_bool)
