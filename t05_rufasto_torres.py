@@ -313,4 +313,15 @@ print("variable ciclo es:",type_ciclo)
 print("variable es str?:",ciclo_es_str)
 print("variable es bool?:",ciclo_es_bool)
 
+#EJERCICIO29
+total_de_anios=16
+type_total_de_anios=type(total_de_anios)
+
+total_de_anios_es_int=isinstance(total_de_anios,int)
+total_de_anios_es_float=isinstance(total_de_anios,float)
+
+print("variable total de anios es:",type_total_de_anios)
+print("variable es int?:",total_de_anios_es_int)
+print("variable es float?:",total_de_anios_es_float)
+
 
