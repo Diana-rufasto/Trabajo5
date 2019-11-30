@@ -543,3 +543,14 @@ costo_por_diente_curado_es_str=isinstance(costo_por_diente_curado,str)
 print("variable costo por diente curado es:",type_costo_por_diente_curado)
 print("variable es float?:",costo_por_diente_curado_es_float)
 print("variable es str?:",costo_por_diente_curado_es_str)
+
+#EJERCICIO50
+costo_por_diente_extraido=25.00
+type_costo_por_diente_extraido=type(costo_por_diente_extraido)
+
+costo_por_diente_extraido_es_float=isinstance(costo_por_diente_extraido,float)
+costo_por_diente_extraido_es_bool=isinstance(costo_por_diente_extraido,bool)
+
+print("variable costo por diente extraido es:",type_costo_por_diente_extraido)
+print("variable es float?:",costo_por_diente_extraido_es_float)
+print("variable es bool?:",costo_por_diente_extraido_es_bool)
