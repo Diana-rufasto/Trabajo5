@@ -367,3 +367,14 @@ nota_del_segundo_curso_es_str=isinstance(nota_del_segundo_curso,str)
 print("variable nota del segundo curso es:",type_nota_del_segundo_curso)
 print("variable es int?:",nota_del_segundo_curso_es_int)
 print("variable es str?:",nota_del_segundo_curso_es_str)
+
+#EJERCICIO34
+nota_de_tercer_curso=14
+type_nota_del_segundo_curso=type(nota_del_segundo_curso)
+
+nota_del_segundo_curso_es_int=isinstance(nota_del_segundo_curso,int)
+nota_del_segundo_curso_es_bool=isinstance(nota_del_segundo_curso,bool)
+
+print("variable nota del tercer curso es:",type_nota_del_segundo_curso)
+print("variable es int?:",nota_del_segundo_curso_es_int)
+print("variable es bool?:",nota_del_segundo_curso_es_bool)
