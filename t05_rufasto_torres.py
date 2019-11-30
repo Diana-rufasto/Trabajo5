@@ -532,3 +532,14 @@ nro_de_dientes_extraidos_es_str=isinstance(nro_de_dientes_extraidos,str)
 print("variable nro de dientes extraidos es:",type_nro_de_dientes_extraidos)
 print("variable es int?:",nro_de_dientes_extraidos_es_int)
 print("variable es str?:",nro_de_dientes_extraidos_es_str)
+
+#EJERCICIO49
+costo_por_diente_curado=15.00
+type_costo_por_diente_curado=type(costo_por_diente_curado)
+
+costo_por_diente_curado_es_float=isinstance(costo_por_diente_curado,float)
+costo_por_diente_curado_es_str=isinstance(costo_por_diente_curado,str)
+
+print("variable costo por diente curado es:",type_costo_por_diente_curado)
+print("variable es float?:",costo_por_diente_curado_es_float)
+print("variable es str?:",costo_por_diente_curado_es_str)
