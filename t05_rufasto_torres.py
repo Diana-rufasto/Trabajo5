@@ -433,3 +433,14 @@ ingreso_de_la_madre_es_str=isinstance(ingreso_de_la_madre,str)
 print("variable ingreso de la madre es:",type_ingreso_de_la_madre)
 print("variable es float?:",ingreso_de_la_madre_es_float)
 print("variable es str?:",ingreso_de_la_madre_es_str)
+
+#EJERCICIO40
+ingreso_del_hijo=500.00
+type_ingreso_del_hijo=type(ingreso_del_hijo)
+
+ingreso_del_hijo_es_float=isinstance(ingreso_del_hijo,float)
+ingreso_del_hijo_es_bool=isinstance(ingreso_del_hijo,bool)
+
+print("variable ingreso del hijo es:",type_ingreso_del_hijo)
+print("variable es float?:",ingreso_del_hijo_es_float)
+print("variable es bool?:",ingreso_del_hijo_es_bool)
