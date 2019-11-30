@@ -444,3 +444,14 @@ ingreso_del_hijo_es_bool=isinstance(ingreso_del_hijo,bool)
 print("variable ingreso del hijo es:",type_ingreso_del_hijo)
 print("variable es float?:",ingreso_del_hijo_es_float)
 print("variable es bool?:",ingreso_del_hijo_es_bool)
+
+#EJERCICIO41
+ingreso_total=3.500
+type_ingreso_total=type(ingreso_total)
+
+ingreso_total_es_float=isinstance(ingreso_total,float)
+ingreso_total_es_int=isinstance(ingreso_total,int)
+
+print("variable ingreso total es:",type_ingreso_total)
+print("variable es float?:",ingreso_total_es_float)
+print("variable es int?:",ingreso_total_es_int)
