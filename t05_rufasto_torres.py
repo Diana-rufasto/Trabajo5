@@ -213,3 +213,15 @@ producto_es_bool=isinstance(producto,bool)
 print("variable producto es:",type_producto)
 print("variable es str?:",producto_es_str)
 print("variable es bool?:",producto_es_bool)
+
+#EJERCICIO20
+marca_de_celular="iphone"
+type_marca_de_celular=type(marca_de_celular)
+
+marca_de_celular_es_str=isinstance(marca_de_celular,str)
+marca_de_celular_es_int=isinstance(marca_de_celular,int)
+
+print("variable marca de celular es:",type_marca_de_celular)
+print("variable es str?:",marca_de_celular_es_str)
+print("variable es int?:",marca_de_celular_es_int)
+
