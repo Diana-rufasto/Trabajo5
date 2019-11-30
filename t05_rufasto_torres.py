@@ -134,3 +134,15 @@ total_de_ajies_por_min_es_float=isinstance(total_de_ajies_por_min,float)
 print("variable total de ajies es:",type_total_de_ajies_por_min)
 print("variable es int?:",total_de_ajies_por_min_es_int)
 print("variable es float?:",total_de_ajies_por_min_es_float)
+
+
+#EJERCICIO13
+empresa="Gandules"
+type_empresa=type(empresa)
+
+empresa_es_str=isinstance(empresa,str)
+empresa_es_float=isinstance(empresa,float)
+
+print("variable empresa:",type_empresa)
+print("variable es str?:",empresa_es_str)
+print("variable es float?:",empresa_es_float)
