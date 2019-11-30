@@ -225,3 +225,14 @@ print("variable marca de celular es:",type_marca_de_celular)
 print("variable es str?:",marca_de_celular_es_str)
 print("variable es int?:",marca_de_celular_es_int)
 
+#EJERCICIO21
+vendedor="Edgar"
+type_vendedor=type(vendedor)
+
+vendedor_es_str=isinstance(vendedor,str)
+vendedor_es_float=isinstance(vendedor,float)
+
+print("variable vendedor es:",type_vendedor)
+print("variable es str?:",vendedor_es_str)
+print("variable es float?:",vendedor_es_float)
+
