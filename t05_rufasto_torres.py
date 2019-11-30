@@ -499,3 +499,14 @@ empresa_es_bool=isinstance(empresa,bool)
 print("variable empresa es:",type_empresa)
 print("variable es str?:",empresa_es_str)
 print("variable es bool?:",empresa_es_bool)
+
+#EJERCICIO46
+producto_para_construccion="Cemento"
+type_producto_para_construccion=type(producto_para_construccion)
+
+producto_para_construccion_es_str=isinstance(producto_para_construccion,str)
+producto_para_construccion_es_int=isinstance(producto_para_construccion,int)
+
+print("variable producto para contruccion es:",type_producto_para_construccion)
+print("variable es str?:",producto_para_construccion_es_str)
+print("variable es int?:",producto_para_construccion_es_int)
