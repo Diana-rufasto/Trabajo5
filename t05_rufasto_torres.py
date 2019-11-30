@@ -521,3 +521,14 @@ nro_de_dientes_curados_es_float=isinstance(nro_de_dientes_curados,float)
 print("variable nro de dientes curados es:",type_nro_de_dientes_curados)
 print("variable es int?:",nro_de_dientes_curados_es_int)
 print("variable es float?:",nro_de_dientes_curados_es_float)
+
+#EJERCICIO48
+nro_de_dientes_extraidos=2
+type_nro_de_dientes_extraidos=type(nro_de_dientes_extraidos)
+
+nro_de_dientes_extraidos_es_int=isinstance(nro_de_dientes_extraidos,int)
+nro_de_dientes_extraidos_es_str=isinstance(nro_de_dientes_extraidos,str)
+
+print("variable nro de dientes extraidos es:",type_nro_de_dientes_extraidos)
+print("variable es int?:",nro_de_dientes_extraidos_es_int)
+print("variable es str?:",nro_de_dientes_extraidos_es_str)
