@@ -345,3 +345,14 @@ total_de_dias_es_str=isinstance(total_de_dias,str)
 print("variable total de dias es:",type_total_de_dias)
 print("variable es int?:",total_de_dias_es_int)
 print("variable es str?:",total_de_dias_es_str)
+
+#EJERCICIO32
+nota_del_primer_curso=16
+type_nota_del_primer_curso=type(nota_del_primer_curso)
+
+nota_del_primer_curso_es_int=isinstance(nota_del_primer_curso,int)
+nota_del_primer_curso_es_float=isinstance(nota_del_primer_curso,float)
+
+print("variable nota del primer curso es:",type_nota_del_primer_curso)
+print("variable es int?:",nota_del_primer_curso_es_int)
+print("variable es float?:",nota_del_primer_curso_es_float)
