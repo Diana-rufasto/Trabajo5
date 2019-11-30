@@ -236,3 +236,14 @@ print("variable vendedor es:",type_vendedor)
 print("variable es str?:",vendedor_es_str)
 print("variable es float?:",vendedor_es_float)
 
+#EJERCICIO22
+cantidad_de_celulares=30
+type_cantidad_de_celulares=type(cantidad_de_celulares)
+
+cantidad_de_celulares_es_int=isinstance(cantidad_de_celulares,int)
+cantidad_de_celulares_es_bool=isinstance(cantidad_de_celulares,bool)
+
+print("variable cantidad de celulares es:",type_cantidad_de_celulares)
+print("variable es int?:",cantidad_de_celulares_es_int)
+print("variable es bool?:",cantidad_de_celulares_es_bool)
+
