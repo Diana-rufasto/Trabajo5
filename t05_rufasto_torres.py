@@ -477,3 +477,15 @@ nro_de_campaña_es_str=isinstance(nro_de_campaña,str)
 print("variable nro de campaña es:",type_nro_de_campaña)
 print("variable es int?:",nro_de_campaña_es_int)
 print("variable es str?:",nro_de_campaña_es_str)
+
+#EJERCICIO44
+consultora="Diana"
+type_consultora=type(consultora)
+
+consultora_es_str=isinstance(consultora,str)
+consultora_es_float=isinstance(consultora,float)
+
+print("variable consultora es:",type_consultora)
+print("variable es str?:",consultora_es_str)
+print("variable es float?:",consultora_es_float)
+
