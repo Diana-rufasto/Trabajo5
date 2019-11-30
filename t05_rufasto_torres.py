@@ -302,4 +302,15 @@ print("variable curso es:",type_curso)
 print("variable es str?:",curso_es_str)
 print("variable es float?:",curso_es_float)
 
+#EJERCICIO28
+ciclo="quinto"
+type_ciclo=type(ciclo)
+
+ciclo_es_str=isinstance(ciclo,str)
+ciclo_es_bool=isinstance(ciclo,bool)
+
+print("variable ciclo es:",type_ciclo)
+print("variable es str?:",ciclo_es_str)
+print("variable es bool?:",ciclo_es_bool)
+
 
