@@ -335,3 +335,13 @@ print("variable total de meses es:",type_total_de_meses)
 print("variable es int?:",total_de_meses_es_int)
 print("variable es bool?:",total_de_meses_es_bool)
 
+#EJERCICIO31
+total_de_dias=17
+type_total_de_dias=type(total_de_dias)
+
+total_de_dias_es_int=isinstance(total_de_dias,int)
+total_de_dias_es_str=isinstance(total_de_dias,str)
+
+print("variable total de dias es:",type_total_de_dias)
+print("variable es int?:",total_de_dias_es_int)
+print("variable es str?:",total_de_dias_es_str)
