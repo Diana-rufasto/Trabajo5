@@ -324,4 +324,14 @@ print("variable total de anios es:",type_total_de_anios)
 print("variable es int?:",total_de_anios_es_int)
 print("variable es float?:",total_de_anios_es_float)
 
+#EJERCICIO30
+total_de_meses=9
+type_total_de_meses=type(total_de_meses)
+
+total_de_meses_es_int=isinstance(total_de_meses,int)
+total_de_meses_es_bool=isinstance(total_de_meses,bool)
+
+print("variable total de meses es:",type_total_de_meses)
+print("variable es int?:",total_de_meses_es_int)
+print("variable es bool?:",total_de_meses_es_bool)
 
