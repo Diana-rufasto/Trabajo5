@@ -291,4 +291,15 @@ print("variable nro de dias es:",type_nro_de_dias)
 print("variable es int?:",nro_de_dias_es_int)
 print("variable es str?:",nro_de_dias_es_str)
 
+#EJERCICIO27
+curso="Computacion"
+type_curso=type(curso)
+
+curso_es_str=isinstance(curso,str)
+curso_es_float=isinstance(curso,float)
+
+print("variable curso es:",type_curso)
+print("variable es str?:",curso_es_str)
+print("variable es float?:",curso_es_float)
+
 
