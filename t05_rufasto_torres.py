@@ -146,3 +146,14 @@ empresa_es_float=isinstance(empresa,float)
 print("variable empresa:",type_empresa)
 print("variable es str?:",empresa_es_str)
 print("variable es float?:",empresa_es_float)
+
+#EJERCICIO14
+nota_de_sustentacion_de_tesis=18.5
+type_nota_de_sustentacion_de_tesis=type(nota_de_sustentacion_de_tesis)
+
+nota_de_sustentacion_de_tesis_es_float=isinstance(nota_de_sustentacion_de_tesis,float)
+nota_de_sustentacion_de_tesis_es_str=isinstance(nota_de_sustentacion_de_tesis,str)
+
+print("variable nota de sustentacion de tesis es:",type_nota_de_sustentacion_de_tesis)
+print("variable es float?:",nota_de_sustentacion_de_tesis_es_float)
+print("variable es str?:",nota_de_sustentacion_de_tesis_es_str)
