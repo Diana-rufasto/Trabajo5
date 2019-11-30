@@ -202,3 +202,14 @@ talla_de_paciente_es_str=isinstance(talla_de_paciente,str)
 print("variable talla del paciente es:",type_talla_de_paciente)
 print("variable es float?:",talla_de_paciente_es_float)
 print("variable es str?:",talla_de_paciente_es_str)
+
+#EJERCICIO19
+producto="labiales"
+type_producto=type(producto)
+
+producto_es_str=isinstance(producto,str)
+producto_es_bool=isinstance(producto,bool)
+
+print("variable producto es:",type_producto)
+print("variable es str?:",producto_es_str)
+print("variable es bool?:",producto_es_bool)
