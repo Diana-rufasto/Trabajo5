@@ -356,3 +356,14 @@ nota_del_primer_curso_es_float=isinstance(nota_del_primer_curso,float)
 print("variable nota del primer curso es:",type_nota_del_primer_curso)
 print("variable es int?:",nota_del_primer_curso_es_int)
 print("variable es float?:",nota_del_primer_curso_es_float)
+
+#EJERCICIO33
+nota_del_segundo_curso=18
+type_nota_del_segundo_curso=type(nota_del_segundo_curso)
+
+nota_del_segundo_curso_es_int=isinstance(nota_del_segundo_curso,int)
+nota_del_segundo_curso_es_str=isinstance(nota_del_segundo_curso,str)
+
+print("variable nota del segundo curso es:",type_nota_del_segundo_curso)
+print("variable es int?:",nota_del_segundo_curso_es_int)
+print("variable es str?:",nota_del_segundo_curso_es_str)
