@@ -192,3 +192,13 @@ print("variable es float?:",peso_del_paciente_es_float)
 print("variable es int?:",peso_del_paciente_es_int)
 
 
+#EJERCICIO18
+talla_de_paciente=1.65
+type_talla_de_paciente=type(talla_de_paciente)
+
+talla_de_paciente_es_float=isinstance(talla_de_paciente,float)
+talla_de_paciente_es_str=isinstance(talla_de_paciente,str)
+
+print("variable talla del paciente es:",type_talla_de_paciente)
+print("variable es float?:",talla_de_paciente_es_float)
+print("variable es str?:",talla_de_paciente_es_str)
