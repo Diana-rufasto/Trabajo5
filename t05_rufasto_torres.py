@@ -280,5 +280,15 @@ print("variable asignacion familiar es:",type_asignacion_familiar)
 print("variable es float?:",asignacion_familiar_es_float)
 print("variable es bool?:",asignacion_familiar_es_bool)
 
+#EJERCICIO26
+nro_de_dias=27
+type_nro_de_dias=type(nro_de_dias)
+
+nro_de_dias_es_int=isinstance(nro_de_dias,int)
+nro_de_dias_es_str=isinstance(nro_de_dias,str)
+
+print("variable nro de dias es:",type_nro_de_dias)
+print("variable es int?:",nro_de_dias_es_int)
+print("variable es str?:",nro_de_dias_es_str)
 
 
