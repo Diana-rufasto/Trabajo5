@@ -455,3 +455,14 @@ ingreso_total_es_int=isinstance(ingreso_total,int)
 print("variable ingreso total es:",type_ingreso_total)
 print("variable es float?:",ingreso_total_es_float)
 print("variable es int?:",ingreso_total_es_int)
+
+#EJERCICIO42
+edad_del_paciente=25
+type_edad_del_paciente=type(edad_del_paciente)
+
+edad_del_paciente_es_int=isinstance(edad_del_paciente,int)
+edad_del_paciente_es_bool=isinstance(edad_del_paciente,bool)
+
+print("variable edad del paciente es:",type_edad_del_paciente)
+print("variable es int?:",edad_del_paciente_es_int)
+print("variable es bool?:",edad_del_paciente_es_bool)
