@@ -60,6 +60,7 @@ type_monto_de_pasar_pedido=type(monto_de_pasar_pedido)
 monto_de_pasar_pedido_es_float=isinstance(monto_de_pasar_pedido,float)
 monto_de_pasar_pedido_es_int=isinstance(monto_de_pasar_pedido,int)
 
+
 print("variable monto de pasar pedido es:",type_monto_de_pasar_pedido)
 print("variable es float?:",monto_de_pasar_pedido_es_float)
 print("variable es int?:",monto_de_pasar_pedido_es_int)
@@ -74,3 +75,15 @@ monto_de_liquidacion_es_bool=isinstance(monto_de_liquidacion,bool)
 print("variable monto de liquidacion es:",type_monto_de_liquidacion)
 print("variable es float?:",monto_de_liquidacion_es_float)
 print("variable es bool?:",monto_de_liquidacion_es_bool)
+
+
+#EJERCICIO08
+comprador_compulsivo="Maria"
+type_comprador_compulsivo=type(comprador_compulsivo)
+
+comprador_compulsivo_es_str=isinstance(comprador_compulsivo,str)
+comprador_compulsivo_es_float=isinstance(comprador_compulsivo,float)
+
+print("variable comprador compulsivo es:",type_comprador_compulsivo)
+print("variable es str?:",comprador_compulsivo_es_str)
+print("variable es float?:",comprador_compulsivo_es_float)
