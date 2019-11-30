@@ -489,3 +489,13 @@ print("variable consultora es:",type_consultora)
 print("variable es str?:",consultora_es_str)
 print("variable es float?:",consultora_es_float)
 
+#EJERCICIO45
+empresa="Avon"
+type_empresa=type(empresa)
+
+empresa_es_str=isinstance(empresa,str)
+empresa_es_bool=isinstance(empresa,bool)
+
+print("variable empresa es:",type_empresa)
+print("variable es str?:",empresa_es_str)
+print("variable es bool?:",empresa_es_bool)
