@@ -122,3 +122,15 @@ obrero_es_bool=isinstance(obrero,bool)
 print("variable obrero es:",type_obrero)
 print("variable es str?:",obrero_es_str)
 print("variable es bool?:",obrero_es_bool)
+
+
+#EJERCICIO12
+total_de_ajies_por_min=20
+type_total_de_ajies_por_min=type(total_de_ajies_por_min)
+
+total_de_ajies_por_min_es_int=isinstance(total_de_ajies_por_min,int)
+total_de_ajies_por_min_es_float=isinstance(total_de_ajies_por_min,float)
+
+print("variable total de ajies es:",type_total_de_ajies_por_min)
+print("variable es int?:",total_de_ajies_por_min_es_int)
+print("variable es float?:",total_de_ajies_por_min_es_float)
