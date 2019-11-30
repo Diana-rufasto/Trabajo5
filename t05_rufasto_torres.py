@@ -466,3 +466,14 @@ edad_del_paciente_es_bool=isinstance(edad_del_paciente,bool)
 print("variable edad del paciente es:",type_edad_del_paciente)
 print("variable es int?:",edad_del_paciente_es_int)
 print("variable es bool?:",edad_del_paciente_es_bool)
+
+#EJERCICIO43
+nro_de_campaña=19
+type_nro_de_campaña=type(nro_de_campaña)
+
+nro_de_campaña_es_int=isinstance(nro_de_campaña,int)
+nro_de_campaña_es_str=isinstance(nro_de_campaña,str)
+
+print("variable nro de campaña es:",type_nro_de_campaña)
+print("variable es int?:",nro_de_campaña_es_int)
+print("variable es str?:",nro_de_campaña_es_str)
