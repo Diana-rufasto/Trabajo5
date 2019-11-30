@@ -99,3 +99,14 @@ total_a_pagar_es_bool=isinstance(total_a_pagar,bool)
 print("variable total a pagar es:",type_total_a_pagar)
 print("variable es float?:",total_a_pagar_es_float)
 print("variable es bool?:",total_a_pagar_es_bool)
+
+#EJERCICIO10
+nro_de_javas=50
+type_nro_de_javas=type(nro_de_javas)
+
+nro_de_javas_es_int=isinstance(nro_de_javas,int)
+nro_de_javas_es_str=isinstance(nro_de_javas,str)
+
+print("variable nro de javas es:",type_nro_de_javas)
+print("variable es int?:",nro_de_javas_es_int)
+print("variable es str?:",nro_de_javas_es_str)
