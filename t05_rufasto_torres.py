@@ -157,3 +157,15 @@ nota_de_sustentacion_de_tesis_es_str=isinstance(nota_de_sustentacion_de_tesis,st
 print("variable nota de sustentacion de tesis es:",type_nota_de_sustentacion_de_tesis)
 print("variable es float?:",nota_de_sustentacion_de_tesis_es_float)
 print("variable es str?:",nota_de_sustentacion_de_tesis_es_str)
+
+#EJERCICIO15
+universidad="Pedro Ruis Gallo"
+type_universidad=type(universidad)
+
+universidad_es_str=isinstance(universidad,str)
+universidad_es_float=isinstance(universidad,float)
+
+print("variable universidad es:",type_universidad)
+print("variable es str?:",universidad_es_str)
+print("variable es float?:",universidad_es_float)
+
