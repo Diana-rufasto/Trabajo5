@@ -110,3 +110,15 @@ nro_de_javas_es_str=isinstance(nro_de_javas,str)
 print("variable nro de javas es:",type_nro_de_javas)
 print("variable es int?:",nro_de_javas_es_int)
 print("variable es str?:",nro_de_javas_es_str)
+
+
+#EJERCICIO11
+obrero="Segundo"
+type_obrero=type(obrero)
+
+obrero_es_str=isinstance(obrero,str)
+obrero_es_bool=isinstance(obrero,bool)
+
+print("variable obrero es:",type_obrero)
+print("variable es str?:",obrero_es_str)
+print("variable es bool?:",obrero_es_bool)
