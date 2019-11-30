@@ -390,3 +390,13 @@ print("variable horas trabajadas es:",type_horas_trabajadas)
 print("variable es int?:",horas_trabajadas_es_int)
 print("variable es str?:",horas_trabajadas_es_str)
 
+#EJERCICIO36
+horas_trabajadas_semanal=50
+type_horas_trabajadas_semanal=type(horas_trabajadas_semanal)
+
+horas_trabajadas_semanal_es_int=isinstance(horas_trabajadas_semanal,int)
+horas_trabajadas_semanal_es_float=isinstance(horas_trabajadas_semanal,float)
+
+print("variable horas trabajadas semanal es:",type_horas_trabajadas_semanal)
+print("variable es int?:",horas_trabajadas_semanal_es_int)
+print("variable es float?:",horas_trabajadas_semanal_es_float)
