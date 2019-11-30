@@ -180,3 +180,15 @@ print("variable ingreso mensual es:",type_ingreso_mensual)
 print("variable es float?:",ingreso_mensual_es_float)
 print("variable es bool?:",ingreso_mensual_es_bool)
 
+#EJERCICIO17
+peso_del_paciente=58.5
+type_peso_del_paciente=type(peso_del_paciente)
+
+peso_del_paciente_es_float=isinstance(peso_del_paciente,float)
+peso_del_paciente_es_int=isinstance(peso_del_paciente,int)
+
+print("variable peso del paciente es:",type_peso_del_paciente)
+print("variable es float?:",peso_del_paciente_es_float)
+print("variable es int?:",peso_del_paciente_es_int)
+
+
